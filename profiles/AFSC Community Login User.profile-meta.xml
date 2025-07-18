@@ -1,0 +1,2933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>AFSC_Connect</application>
+        <default>true</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>AFSC_Connect_Admin</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>AFSC_Connect_Lending</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>AFSC_Connect_Lightning</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>Chatter_Delete_Blocker</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>LLC_BI__Bankr_Base_Installation_Lightning</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <categoryGroupVisibilities>
+        <dataCategoryGroup>Products</dataCategoryGroup>
+        <visibility>ALL</visibility>
+    </categoryGroupVisibilities>
+    <categoryGroupVisibilities>
+        <dataCategoryGroup>Other</dataCategoryGroup>
+        <visibility>ALL</visibility>
+    </categoryGroupVisibilities>
+    <custom>true</custom>
+    <description>Custom AFSC Profile for Clients</description>
+    <layoutAssignments>
+        <layout>Account-AFSC Individual Account Layout</layout>
+        <recordType>Account.LLC_BI__Individual</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+        <recordType>Account.Affiliate</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+        <recordType>Account.LLC_BI__Business</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+        <recordType>Account.LLC_BI__Household</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+        <recordType>Account.LLC_BI__Lender</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+        <recordType>Account.vlocity_ins__MobilePhoneAccount</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AccountBrand-Account Brand Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AccountContactRelation-Account Contact Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Accuracy_Rating__c-Accuracy Rating Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ActionPlan-Action Plan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ActionPlanItemDependency-Action Plan Item Dependency Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ActionPlanTemplate-Action Plan Template Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ActionPlanTemplateItem-Action Plan Template Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ActionPlanTemplateItemValue-Action Plan Template Item Value Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ActionPlanTemplateVersion-Action Plan Template Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ActionPlnTmplItmDependency-Action Plan Template Item Dependency Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Address-Address Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Ag_Prod_Use_Grade__c-Ag Prod Use Grade Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Ag_Prod_Use_Land_Restricted__c-Ag Prod Use Land Restricted Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Ag_Prod_Use_Seeding_Date__c-Ag Prod Use Seeding Date Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Ag_Prod_Use_UOM__c-Ag Prod Use UOM Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Ag_Prod_Use_Variety__c-Ag Prod Use Variety Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Ag_Prod_Use_Year__c-Ag Prod Use Year Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Ag_Prod_Use__c-Ag Prod Use Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Ag_Product__c-Ag Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Applicant-Applicant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ApplicationForm-Application Form Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ApplicationFormProduct-Application Form Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Asset-Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Asset-Asset Layout</layout>
+        <recordType>Asset.vlocity_ins__CommercialLines</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Asset-Asset Layout</layout>
+        <recordType>Asset.vlocity_ins__Default</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Asset-Asset Layout</layout>
+        <recordType>Asset.vlocity_ins__IndividualAnnuity</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Asset-Asset Layout</layout>
+        <recordType>Asset.vlocity_ins__IndividualHealth</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Asset-Asset Layout</layout>
+        <recordType>Asset.vlocity_ins__IndividualLife</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Asset-Asset Layout</layout>
+        <recordType>Asset.vlocity_ins__Investment</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Asset-Asset Layout</layout>
+        <recordType>Asset.vlocity_ins__PersonalLines</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Assigned_Rating__c-Assigned Rating Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssociatedLocation-Associated Location Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AuthorizedInsuranceLine-Authorized Insurance Line Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Award-Award Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BPU_Risk_Area_Relationship__c-BPU Risk Area Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Banker-Banker Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Benchmark_Production_Unit__c-Benchmark Production Unit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Benefit_Application_Version_Line_Item__c-Benefit Application Version Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Benefit_Application_Version__c-Benefit Application Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Benefit_Application__c-Benefit Application Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Benefit_Calculation_Method__c-Benefit Calculation Method Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Benefit_Period__c-Benefit Period Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Benefit_Request_Inventory_Detail__c-Benefit Request Inventory Detail ID Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Benefit_Request_Line_Item__c-Benefit Request Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Benefit_Request__c-Benefit Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Benefit_Type__c-Benefit Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Benefit__c-Benefit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Boomi_Integration_Security_Setting__mdt-Boomi Integration Security Setting Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Boomi_Integration_Service_Setting__mdt-Boomi Integration Service Setting Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BranchUnit-Branch Unit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BranchUnitBusinessMember-Branch Unit Business Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BranchUnitCustomer-Branch Unit Customer Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BranchUnitRelatedRecord-Branch Unit Related Record Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Branch_Approved_Claims__c-Branch Approved Claims Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Branch_Approved_Claims__c-Branch Approved Claims Layout</layout>
+        <recordType>Branch_Approved_Claims__c.Branch_Approved_Claims</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Branch_Approved_Claims__c-Branch Approved Claims Layout</layout>
+        <recordType>Branch_Approved_Claims__c.Payment_by_Declaration</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Branch__c-Branch Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BrowserPolicyViolation-Browser Policy Violation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Bus_Farm_Op_Relationship__c-Bus Farm Op Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BusinessBrand-Business Brand Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BusinessLicense-Business License Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BusinessMilestone-Business Milestone Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BusinessProfile-Business Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Business_Assigned_Rating__c-Business Assigned Rating Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Business_Contact_Relationship__c-Business Contact Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Business_Land_Line_Item__c-Business Land Line Item Layout - CP</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Business_Land_Line_Item__c-Business Land Line Item Layout - CP</layout>
+        <recordType>Business_Land_Line_Item__c.Community_Pasture</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Business_Land_Line_Item__c-Business Land Line Item Layout - DLS</layout>
+        <recordType>Business_Land_Line_Item__c.DLS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Business_Land_Line_Item__c-Business Land Line Item Layout - Riverlot</layout>
+        <recordType>Business_Land_Line_Item__c.Riverlot</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Business_Land__c-Business Land Layout - Community Pasture</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Business_Land__c-Business Land Layout - Community Pasture</layout>
+        <recordType>Business_Land__c.Community_Pasture</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Business_Land__c-Business Land Layout - DLS</layout>
+        <recordType>Business_Land__c.DLS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Business_Land__c-Business Land Layout - Riverlot</layout>
+        <recordType>Business_Land__c.Riverlot</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Business_Premises_Identification__c-Business Premises Identification Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Business_Relationship__c-Business Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Business_Year_Report__c-Business Year Report Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CalcProcStepRelationship-Expression Set Step Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CalculationMatrix-Decision Matrix Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CalculationMatrixColumn-Decision Matrix Column Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CalculationMatrixRow-Decision Matrix Row Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CalculationMatrixVersion-Decision Matrix Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CalculationProcedure-Calculation Procedure Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CalculationProcedureStep-Calculation Procedure Step Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CalculationProcedureVariable-Calculation Procedure Variable Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CalculationProcedureVersion-Calculation Procedure Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Campaign-Campaign Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CampaignInfluence-Campaign Influence Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CampaignInfluenceModel-Campaign Influence Model Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CampaignMember-Campaign Member Page Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CampaignMemberStatus-Campaign Member Status Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout - Change Request</layout>
+        <recordType>Case.Change_Request</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout - Disbursement Request</layout>
+        <recordType>Case.Disbursement_Request</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout - Document Submission</layout>
+        <recordType>Case.Document_Submission</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout - Feedback</layout>
+        <recordType>Case.Feedback</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout - Grain in Storage Report</layout>
+        <recordType>Case.Grain_in_Storage_Report</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout - Harvested Production Report</layout>
+        <recordType>Case.Harvested_Production_Report</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout - Land Report</layout>
+        <recordType>Case.Land_Report</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout - Online Data Submission</layout>
+        <recordType>Case.Online_Data_Submission</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout - Supplementary Information</layout>
+        <recordType>Case.Supplementary_Information</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout - Support</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout - Support</layout>
+        <recordType>Case.Support</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout - Support</layout>
+        <recordType>Case.Web_Chat</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout - Tax Statement</layout>
+        <recordType>Case.Tax_Statement</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Closed Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Closed Case Layout</layout>
+        <recordType>Case.Change_Request</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Closed Case Layout</layout>
+        <recordType>Case.Disbursement_Request</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Closed Case Layout</layout>
+        <recordType>Case.Document_Submission</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Closed Case Layout</layout>
+        <recordType>Case.Feedback</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Closed Case Layout</layout>
+        <recordType>Case.Harvested_Production_Report</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Closed Case Layout</layout>
+        <recordType>Case.Land_Report</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Closed Case Layout</layout>
+        <recordType>Case.Online_Data_Submission</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Closed Case Layout</layout>
+        <recordType>Case.Supplementary_Information</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Closed Case Layout</layout>
+        <recordType>Case.Support</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Closed Case Layout</layout>
+        <recordType>Case.Tax_Statement</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseGatewayRequest-Case Gateway Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseInteraction-Case Feed Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseParticipant-Case Participant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Change_Request_Line_Item__c-Change Request Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Change_Request_Line_Item__c-Change Request Line Item Layout</layout>
+        <recordType>Change_Request_Line_Item__c.Crop_Processing_Vegetables</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Change_Request_Line_Item__c-Change Request Line Item Silage Greenfeed - Barley Proxy Layout</layout>
+        <recordType>Change_Request_Line_Item__c.Silage_Greenfeed_Barley_Proxy</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Change_Request_Line_Item__c-Change Request Line Item Silage Greenfeed - Lack of Moisture Layout</layout>
+        <recordType>Change_Request_Line_Item__c.Silage_Greenfeed_Lack_of_Moisture</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Change_Request__c-Change Request Crop Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Change_Request__c-Change Request Crop Layout</layout>
+        <recordType>Change_Request__c.Crop_Processing_Vegetables</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Change_Request__c-Change Request Silage Greenfeed - Barley Proxy Layout</layout>
+        <recordType>Change_Request__c.Silage_Greenfeed_Barley_Proxy</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Change_Request__c-Change Request Silage Greenfeed - Lack of Moisture Layout</layout>
+        <recordType>Change_Request__c.Silage_Greenfeed_Lack_of_Moistur</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Claim-Claim Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClaimCovPaymentAdjustment-Claim Coverage Payment Adjustment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClaimCovReserveAdjustment-Claim Coverage Reserve Adjustment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClaimCoverage-Claim Coverage Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClaimCoveragePaymentDetail-Claim Coverage Payment Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClaimCoverageReserveDetail-Claim Coverage Reserve Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClaimItem-Claim Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClaimParticipant-Claim Participant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClaimPaymentSummary-Claim Payment Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClaimPayoutPlan-Claim Payout Plan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClaimRecovery-Claim Recovery Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClaimTeamMember-Claim Team Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Claim_Request_Line_Item__c-Claim Request Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Claim_Request__c-Claim Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Claim_Request__c-Claim Request Layout - Beehives</layout>
+        <recordType>Claim_Request__c.Wildlife_Claim_Beehives</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Claim_Request__c-Claim Request Layout - Hail</layout>
+        <recordType>Claim_Request__c.Hail_Claim</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Claim_Request__c-Claim Request Layout - Wildlife</layout>
+        <recordType>Claim_Request__c.Wildlife_Claim</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Client_Id_Verification__c-Client ID Verification Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CodeSet-Code Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CodeSetBundle-Code Set Bundle Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CollaborationGroup-Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Collateral_Valuation_Line_Item__c-Collateral Valuation Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CommissionSchedule-Commission Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CommissionScheduleAssignment-Commission Schedule Assignment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CommunityMemberLayout-Community Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Community__c-Community Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Comparable_Sale_Improvement__c-Comparable Sale Improvement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Comparable_Sale_Land_Breakdown__c-Comparable Sale Land Breakdown Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Comparable_Sale_Valuation_Adjustment__c-Comparable Sale Valuation Adjustment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Comparable_Sale_Valuation__c-Comparable Sale Valuation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Comparable_Sale__c-Comparable Sale Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contact-Contact Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContactPointAddress-Contact Point Address Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContactPointEmail-Contact Point Email Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContactPointPhone-Contact Point Phone Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contact_Relationship__c-Contact Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContentAsset-Asset File Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContentVersion-Content Version</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contract-Contract Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContractGroupPlan-Contract Group Plan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContractGroupPlanGroupClass-Contract Group Plan Group Class Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Crop_Year_Land__c-Crop Year Land Layout - Community Pasture</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Crop_Year_Land__c-Crop Year Land Layout - Community Pasture</layout>
+        <recordType>Crop_Year_Land__c.Community_Pasture</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Crop_Year_Land__c-Crop Year Land Layout - DLS</layout>
+        <recordType>Crop_Year_Land__c.DLS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Crop_Year_Land__c-Crop Year Land Layout - Riverlot</layout>
+        <recordType>Crop_Year_Land__c.Riverlot</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CspTrustedSite-Trusted URL Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Customer-Customer Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CustomerProperty-Customer Property Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DLS_Land_Location_Invalid__c-Invalid DLS Land Location Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DLS_Township__c-DLS Township Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DataUseLegalBasis-Data Use Legal Basis Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DelegatedAccount-External Managed Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Disbursement_Requests__c-Disbursement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DisputeItem-Dispute Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DisputeItemChargeback-Dispute Item Chargeback Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DisputeItemMerchantAlert-Dispute Item Merchant Alert Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DistributorAuthorization-Distributor Authorization Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DocumentChecklistItem-Document Checklist Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DocumentType-Document Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DuplicateRecordItem-Duplicate Record Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DuplicateRecordSet-Duplicate Record Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Election_Invalid_End_Use__mdt-Election Invalid End Use Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Election_Line_Item_Land__c-Election Line Item Land Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Election_Line_Item__c-Election Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Election__c-Election Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EmailMessage-Email Message Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EmpUserProvisionProcessErr-Employee User Provisioning Process Error Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EmpUserProvisioningProcess-Employee User Provisioning Process Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Employee-Employee Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Employee__c-Employee Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EngagementInteraction-Engagement Interaction Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EngagementTopic-Engagement Topic Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Event-Event Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Event-Event Layout</layout>
+        <recordType>Event.FinServ__AdvisorEvent</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Event-Event Layout</layout>
+        <recordType>Event.FinServ__ClientAssociateEvent</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Expense_Type__c-Expense Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ExpressionSet-Expression Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ExpressionSetVersion-Expression Set Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Farm_Op_Supp_Info_Relationship__c-Farm Op Supp Info Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Farm_Op_Tax_Relationship__c-Farm Op Tax Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Farm_Op_Year_Checklist__c-Farm Op Year Checklist Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Farm_Op_Year__c-Farm Op Year Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Farm_Operation__c-Farm Operation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FeedItem-Feed Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FinancialGoal-Financial Goal Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FinancialGoalFunding-Financial Goal Funding Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FinancialGoalParty-Financial Goal Party Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FinancialPlan-Financial Plan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FlowOrchestrationWorkItem-Orchestration Work Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GeneratedDocument-Generated Document Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Global-Global Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Global_Constants__mdt-Global Constant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Grade__c-Grade Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Grain_in_Storage__c-Grain in Storage Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GroupCensus-Group Census Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GroupCensusMember-Group Census Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GroupCensusMemberPlan-Group Census Member Plan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GroupClass-Group Class Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GroupClassContribution-Group Class Contribution Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HPR_Yield_Line_Item__c-HPR Yield Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Hail_Storm_Affected_Client__c-Hail Storm Affected Client Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Harvested_Production_Report_Location__c-HPR Location - Delivered or Sold</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Harvested_Production_Report_Location__c-HPR Location - Delivered or Sold</layout>
+        <recordType>Harvested_Production_Report_Location__c.Delivered_or_Sold_Production</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Harvested_Production_Report_Location__c-HPR Location - Fed</layout>
+        <recordType>Harvested_Production_Report_Location__c.Fed_Production</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Harvested_Production_Report_Location__c-HPR Location - Stored</layout>
+        <recordType>Harvested_Production_Report_Location__c.Stored_Production</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Harvested_Production_Report_Yield__c-Harvested Production Report Yield Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Harvested_Production_Report__c-Harvested Production Report Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Idea-Idea Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IdentityDocument-Identity Document Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IframeWhiteListUrl-Trusted Domain for Inline Frames Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Individual-Individual Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsPolicyTransactionDetail-Insurance Policy Transaction Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsuranceContract-Insurance Contract Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsurancePolicy-Insurance Policy Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsurancePolicyAsset-Insurance Policy Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsurancePolicyCoverage-Insurance Policy Coverage Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsurancePolicyMemberAsset-Insurance Policy Member Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsurancePolicyParticipant-Insurance Policy Participant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsurancePolicySurcharge-Insurance Policy Surcharge Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsurancePolicyTransaction-Insurance Policy Transaction Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InsuranceProfile-Insurance Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InterestTag-Interest Tag Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InternalOrganizationUnit-Internal Organization Unit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Inventory_Type__c-Inventory Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Knowledge__kav-Customer %26 Public User Article Layout</layout>
+        <recordType>Knowledge__kav.Announcement</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Knowledge__kav-Customer %26 Public User Article Layout</layout>
+        <recordType>Knowledge__kav.Standard</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Knowledge__kav-Standard Knowledge Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__AccountDocument__c-LLC_BI__AccountDocument Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Account_Collateral__c-LLC_BI__Account Collateral Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Checklist__c-LLC_BI__Checklist Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Collateral_Valuation__c-LLC_BI__Collateral Valuation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Collateral__c-LLC_BI__Group</layout>
+        <recordType>LLC_BI__Collateral__c.LLC_BI__Group</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Collateral__c-cm_Ag Products</layout>
+        <recordType>LLC_BI__Collateral__c.cm_Ag_Products_Record_type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Collateral__c-cm_Equipment</layout>
+        <recordType>LLC_BI__Collateral__c.cm_Equipment_Record_type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Collateral__c-cm_Financial Instrument</layout>
+        <recordType>LLC_BI__Collateral__c.cm_Financial_Instrument_Record_type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Collateral__c-cm_Livestock</layout>
+        <recordType>LLC_BI__Collateral__c.cm_Livestock_Record_type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Collateral__c-cm_Security Instrument</layout>
+        <recordType>LLC_BI__Collateral__c.cm_Security_Instrument_Record_type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Collateral__c-cm_Title Agreement</layout>
+        <recordType>LLC_BI__Collateral__c.cm_Title_Agreement_Record_Type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Covenant2__c-LLC_BI__Covenant2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Document_Placeholder__c-LLC_BI__Document Placeholder Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Fee__c-LLC_BI__Fee Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Fee__c-LLC_BI__Fee Layout</layout>
+        <recordType>LLC_BI__Fee__c.LLC_BI__Adjustments</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Fee__c-LLC_BI__Fee Layout</layout>
+        <recordType>LLC_BI__Fee__c.LLC_BI__Costs</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Fee__c-LLC_BI__Fee Layout</layout>
+        <recordType>LLC_BI__Fee__c.LLC_BI__Fees</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__LLC_LoanDocument__c-LLC_BI__LLC_LoanDocument Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Lien__c-LLC_BI__Lien Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Loan_Collateral2__c-LLC_BI__Loan Collateral Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Loan__c-LLC_BI__Commercial Loan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Loan__c-LLC_BI__Commercial Loan Layout</layout>
+        <recordType>LLC_BI__Loan__c.Commercial_Loan_Record_Type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Loan__c-LLC_BI__Commercial Loan Layout</layout>
+        <recordType>LLC_BI__Loan__c.Consumer_Loan_Record_Type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Loan__c-LLC_BI__Commercial Loan Layout</layout>
+        <recordType>LLC_BI__Loan__c.Government_Guaranteed_Record_Type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Loan__c-LLC_BI__Commercial Loan Layout</layout>
+        <recordType>LLC_BI__Loan__c.Guidance_LOC_Sub_Loan_Record_Type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Loan__c-LLC_BI__Commercial Loan Layout</layout>
+        <recordType>LLC_BI__Loan__c.Guidance_Line_Record_Type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Loan__c-LLC_BI__Commercial Loan Layout</layout>
+        <recordType>LLC_BI__Loan__c.LLC_BI__Start</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Loan__c-LLC_BI__Commercial Loan Layout</layout>
+        <recordType>LLC_BI__Loan__c.LLC_BI__Test_Product_Type_1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Loan__c-LLC_BI__Commercial Loan Layout</layout>
+        <recordType>LLC_BI__Loan__c.LLC_BI__Test_Product_Type_1v2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Rate__c-LLC_BI__Rate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Requirement__c-LLC_BI__Requirement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Review__c-LLC_BI__Account In Progress</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Review__c-LLC_BI__Account In Progress</layout>
+        <recordType>LLC_BI__Review__c.LLC_BI__Account_Review_Complete</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Review__c-LLC_BI__Account In Progress</layout>
+        <recordType>LLC_BI__Review__c.LLC_BI__Account_Review_In_Progress</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Review__c-LLC_BI__Account In Progress</layout>
+        <recordType>LLC_BI__Review__c.LLC_BI__Package_Review_Complete</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Review__c-LLC_BI__Account In Progress</layout>
+        <recordType>LLC_BI__Review__c.LLC_BI__Package_Review_In_Progress</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Land_Report_Line_Item__c-Land Report Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Land_Report__c-Land Report Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Land_Report__c-Land Report Layout</layout>
+        <recordType>Land_Report__c.DLS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Land_Report__c-Land Report Layout</layout>
+        <recordType>Land_Report__c.Riverlot</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Lead Page Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Lead Page Layout</layout>
+        <recordType>Lead.FinServ__General</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Lead Page Layout</layout>
+        <recordType>Lead.FinServ__RetirementPlanning</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LegalEntity-Legal Entity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ListEmail-List Email Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveAgentSession-Live Agent Session Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveChatTranscript-Live Chat Transcript Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveChatTranscriptActive-Live Chat Transcript %28In Progress%29 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveChatTranscriptEvent-Live Chat Transcript Event Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveChatTranscriptWaiting-Live Chat Transcript %28Waiting%29 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveChatVisitor-Live Chat Visitor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicant-Loan Applicant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicantAddress-Loan Applicant Address Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicantAsset-Loan Applicant Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicantDeclaration-Loan Applicant Declaration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicantEmployment-Loan Applicant Employment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicantIncome-Loan Applicant Income Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicantLiability-Loan Applicant Liability Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicationAsset-Loan Application Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicationFinancial-Loan Application Financial Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicationLiability-Loan Application Liability Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicationProperty-Loan Application Property Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LoanApplicationTitleHolder-Loan Application Title Holder Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Location-Location Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Macro-Macro Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Messages_and_Alerts__c-Messages and Alerts Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Messages_and_Alerts__c-Messages and Alerts Layout</layout>
+        <recordType>Messages_and_Alerts__c.Program_Specific</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Messages_and_Alerts__c-Messages and Alerts Layout</layout>
+        <recordType>Messages_and_Alerts__c.System_Related</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Messages_and_Alerts__c-Messages and Alerts Layout</layout>
+        <recordType>Messages_and_Alerts__c.User_Authored</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MicrosoftAzure_ClientCredentials__mdt-Microsoft Azure Client Credentials Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OmniInteractionConfig-Omni Interaction Configuration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Opportunity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Opportunity Layout</layout>
+        <recordType>Opportunity.FinServ__RetirementPlanning</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Opportunity Layout</layout>
+        <recordType>Opportunity.FinServ__WalletShareOpportunity</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Opportunity Layout</layout>
+        <recordType>Opportunity.Insurance</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OpportunityContactRole-Opportunity Contact Role Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OpportunityLineItem-Opportunity Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Order-Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OrderItem-Order Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PartyCertifiedCapacity-Party Certified Capacity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PaymentRequest-Payment Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PaymentRequestLine-Payment Request Line Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PersonAccount-Person Account Layout</layout>
+        <recordType>PersonAccount.Person</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PersonEducation-Person Education Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PersonLifeEvent-Person Life Event Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Pricebook2-Price Book Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PricebookEntry-Price Book Entry Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProcessException-Process Exception Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Producer-Producer Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProducerCommission-Producer Commission Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Product2-Old Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Product__c-Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Production_Unit_Line_Item__c-Production Unit Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProfileSkill-Skill Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProfileSkillEndorsement-Endorsement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProfileSkillUser-Skill User Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PublicComplaint-Public Complaint Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>QuickText-Quick Text Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Quote-Quote Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>QuoteLineItem-Quote Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RecurrenceSchedule-Recurrence Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Reference_Margin_Option__c-Reference Margin Option Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ResidentialLoanApplication-Residential Loan Application Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Risk_Area__c-Risk Area Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Riverlot__c-Riverlot Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SHail_Estimate_Line_Item__c-SHail Estimate Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SHail_Estimate__c-SHail Estimate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Schedule1_Code__c-Schedule1 Code Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Schedule1_Code__c-Schedule1 Code Layout</layout>
+        <recordType>Schedule1_Code__c.A</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Schedule1_Code__c-Schedule1 Code Layout</layout>
+        <recordType>Schedule1_Code__c.B</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Schedule1_Code__c-Schedule1 Code Layout</layout>
+        <recordType>Schedule1_Code__c.C</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Schedule1_Line_Item__c-Schedule1 Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Schedule1_Line_Item__c-Schedule1 Line Item Layout</layout>
+        <recordType>Schedule1_Line_Item__c.A</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Schedule1_Line_Item__c-Schedule1 Line Item Layout</layout>
+        <recordType>Schedule1_Line_Item__c.B</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Schedule1_Line_Item__c-Schedule1 Line Item Layout</layout>
+        <recordType>Schedule1_Line_Item__c.C</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Schedule2_Line_Item__c-Schedule2 Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Schedule3_Line_Item__c-Schedule3 Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Scorecard-Scorecard Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ScorecardAssociation-Scorecard Association Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ScorecardMetric-Scorecard Metric Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SecuritiesHolding-Securities Holding Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Seller-Seller Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceResource-Service Resource Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Snippet-Snippet Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Solution-Solution Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Subscription_Alert__c-Subscription Alert Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Subscription_Year_Checklist__c-Subscription Year Checklist Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Subscription_Year_Report__c-Subscription Year Report Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Subscription_Year__c-Subscription Year - Insurance</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Subscription_Year__c-Subscription Year - Insurance</layout>
+        <recordType>Subscription_Year__c.Insurance</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Subscription_Year__c-Subscription Year - Stabilization</layout>
+        <recordType>Subscription_Year__c.Stabilization</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Subscription__c-Subscription Layout - Insurance</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Subscription__c-Subscription Layout - Insurance</layout>
+        <recordType>Subscription__c.Insurance</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Subscription__c-Subscription Layout - Lending</layout>
+        <recordType>Subscription__c.Lending</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Subscription__c-Subscription Layout - Stabilization</layout>
+        <recordType>Subscription__c.Stabilization</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Supp_Info_Submission__c-Supp Info Submission Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Supplementary_Information__c-Supplementary Information Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TagCategory-Tag Category Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TagCategoryAssignment-Tag Category Assignment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Targeted_Business__c-Targeted Business Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Task-Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tax_Code__c-Tax Code Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tax_Code__c-Tax Code Layout</layout>
+        <recordType>Tax_Code__c.A</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tax_Code__c-Tax Code Layout</layout>
+        <recordType>Tax_Code__c.B</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tax_Code__c-Tax Code Layout</layout>
+        <recordType>Tax_Code__c.C</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tax_Code__c-Tax Code Layout</layout>
+        <recordType>Tax_Code__c.D</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tax_Code__c-Tax Code Layout</layout>
+        <recordType>Tax_Code__c.E</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tax_Statement_Additional_Information__c-Tax Statement Additional Info Layout - Partner</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tax_Statement_Additional_Information__c-Tax Statement Additional Info Layout - Partner</layout>
+        <recordType>Tax_Statement_Additional_Information__c.P</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tax_Statement_Additional_Information__c-Tax Statement Additional Info Layout - Shareholder</layout>
+        <recordType>Tax_Statement_Additional_Information__c.S</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tax_Statement_Line_Item__c-Tax Statement Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tax_Statement_Line_Item__c-Tax Statement Line Item Layout</layout>
+        <recordType>Tax_Statement_Line_Item__c.A</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tax_Statement_Line_Item__c-Tax Statement Line Item Layout</layout>
+        <recordType>Tax_Statement_Line_Item__c.B</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tax_Statement_Line_Item__c-Tax Statement Line Item Layout</layout>
+        <recordType>Tax_Statement_Line_Item__c.C</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tax_Statement_Line_Item__c-Tax Statement Line Item Layout</layout>
+        <recordType>Tax_Statement_Line_Item__c.D</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tax_Statement_Line_Item__c-Tax Statement Line Item Layout</layout>
+        <recordType>Tax_Statement_Line_Item__c.E</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tax_Statement__c-Tax Statement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Unit_of_Measure__c-Unit of Measure Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Use__c-Use Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>User-User Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserAlt-User Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserAppMenuItem-Application Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserFinancialAuthority-User Financial Authority Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserProvAccount-User Provisioning Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserProvisioningLog-User Provisioning Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>User_Access_Reference_Detail__c-User Access Reference Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>User_Access_Reference__c-User Access Reference Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Validation_Issue__c-Validation Issue Layout - HPR</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Validation_Issue__c-Validation Issue Layout - HPR</layout>
+        <recordType>Validation_Issue__c.Harvested_Production_Report</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Validation_Issue__c-Validation Issue Layout - Land Report</layout>
+        <recordType>Validation_Issue__c.Land_Report</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Weight_Unit_of_Measure_Conversion__mdt-Weight Unit of Measure Conversion Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkAccess-Access Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkBadge-Badge Received Layout 192</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkBadgeDefinition-Badge Layout 192</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkOrder-Work Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkOrderLineItem-Work Order Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkThanks-Thanks Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkerCompCoverageClass-Worker Compensation Coverage Class Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>cm_Arrears_Management_Plan__c-Arrears Management Plan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>cm_Collateral_Mgmt_Line_Item__c-Collateral Mgmt Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>cm_Disbursement_Request_Project_Purpose__c-Disbursement Request Project Purpose Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>cm_Disbursement_Request__c-Disbursement Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>cm_Interest_Rate_Margin__c-Rate Margin Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>cm_NAICS__c-NAICS Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>cm_Operation_Type__c-Operation Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>cm_Payee__c-External Payments Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>cm_Payee__c-External Payments Layout</layout>
+        <recordType>cm_Payee__c.External_Payments</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>cm_Payee__c-Internal Payment Layout</layout>
+        <recordType>cm_Payee__c.Internal_Payments</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>cm_Periodic_Review__c-Periodic Review Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>cm_Project_Purpose__c-Project Purpose Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>cm_Risk_Rating__c-Risk Rating Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>nCinoCB__BA_Alert__c-nCinoCB__Banking Advisor Alert Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>nCinoCB__Background_Agent_Process_Log__c-nCinoCB__Background Agent Process Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>nCinoCB__Gen_AI_Agent_File__c-nCinoCB__Agent File Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>nCinoCB__Gen_AI_Agent_Suggestion__c-nCinoCB__Gen AI Agent Suggestion Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>nCinoCB__Gen_AI_Agent_Tool__c-nCinoCB__Gen AI Agent Tool Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>nCinoCB__Gen_AI_Agent__c-nCinoCB__Gen AI Agent Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>rflib_Global_Setting__mdt-rflib Global Setting Layout</layout>
+    </layoutAssignments>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.Affiliate</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.FinServ__IndustriesBusiness</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.FinServ__IndustriesHousehold</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.FinServ__IndustriesIndividual</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.FinServ__IndustriesInstitution</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
+        <recordType>Account.LLC_BI__Business</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.LLC_BI__Household</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.LLC_BI__Individual</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.LLC_BI__Lender</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.vlocity_ins__AgencyBrokerage</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.vlocity_ins__Business_Account</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.vlocity_ins__Carrier</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.vlocity_ins__Group</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.vlocity_ins__GroupDivision</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.vlocity_ins__MobilePhoneAccount</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.vlocity_ins__Pharmacy</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.vlocity_ins__Provider</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.vlocity_ins__ProviderLocation</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.vlocity_ins__StandardAccount</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Asset.vlocity_ins__CommercialLines</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Asset.vlocity_ins__Default</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Asset.vlocity_ins__IndividualAnnuity</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Asset.vlocity_ins__IndividualHealth</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Asset.vlocity_ins__IndividualLife</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Asset.vlocity_ins__Investment</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Asset.vlocity_ins__PersonalLines</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Branch_Approved_Claims__c.Branch_Approved_Claims</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Branch_Approved_Claims__c.Payment_by_Declaration</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Business_Land_Line_Item__c.Community_Pasture</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Business_Land_Line_Item__c.DLS</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Business_Land_Line_Item__c.Riverlot</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Business_Land__c.Community_Pasture</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Business_Land__c.DLS</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Business_Land__c.Riverlot</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Case.Change_Request</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Case.Disbursement_Request</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Case.Document_Submission</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Case.Feedback</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Case.Grain_in_Storage_Report</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Case.Harvested_Production_Report</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Case.Land_Report</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Case.Online_Data_Submission</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Case.Supplementary_Information</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Case.Support</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Case.Tax_Statement</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Case.Web_Chat</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Case.vlocity_ins__MobilePhoneCase</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Change_Request_Line_Item__c.Crop_Processing_Vegetables</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Change_Request_Line_Item__c.Silage_Greenfeed_Barley_Proxy</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Change_Request_Line_Item__c.Silage_Greenfeed_Lack_of_Moisture</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Change_Request__c.Crop_Processing_Vegetables</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Change_Request__c.Silage_Greenfeed_Barley_Proxy</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Change_Request__c.Silage_Greenfeed_Lack_of_Moistur</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Claim_Request__c.Hail_Claim</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Claim_Request__c.Wildlife_Claim</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Claim_Request__c.Wildlife_Claim_Beehives</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Contact.FinServ__IndustriesBusiness</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Contact.FinServ__IndustriesIndividual</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Contact.LLC_BI__Business_Contact</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Contact.LLC_BI__Individual_Contact</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Contact.vlocity_ins__Contact</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Contact.vlocity_ins__MobilePhoneContact</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Contact.vlocity_ins__Producer</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Contact.vlocity_ins__Provider</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Contract.vlocity_ins__Carrier</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Contract.vlocity_ins__Contract</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Contract.vlocity_ins__Group</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Contract.vlocity_ins__Producer</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Contract.vlocity_ins__Provider</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Contract.vlocity_ins__ReadOnlyContract</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Crop_Year_Land__c.Community_Pasture</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Crop_Year_Land__c.DLS</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Crop_Year_Land__c.Riverlot</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Event.FinServ__AdvisorEvent</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Event.FinServ__ClientAssociateEvent</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Event.vlocity_ins__MobilePhoneEvent</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>FinServ__ReciprocalRole__c.FinServ__AccountRole</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>FinServ__ReciprocalRole__c.FinServ__ContactRole</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Harvested_Production_Report_Location__c.Delivered_or_Sold_Production</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Harvested_Production_Report_Location__c.Fed_Production</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Harvested_Production_Report_Location__c.Stored_Production</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Knowledge__kav.Announcement</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Knowledge__kav.Standard</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.LLC_BI__Government_Contracts</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.LLC_BI__Group</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.LLC_BI__Possessory_Letter_of_Credit</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.LLC_BI__Possessory_Life_Insurance</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.LLC_BI__Possessory_Other</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.LLC_BI__Possessory_Savings_CD</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.LLC_BI__Possessory_Securities</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.LLC_BI__Real_Estate</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.LLC_BI__Titled_Aircraft</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.LLC_BI__Titled_Boat</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.LLC_BI__Titled_Mobile_Home</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.LLC_BI__Titled_Motor_Vehicle</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.LLC_BI__Titled_Trailer_Other</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.LLC_BI__Titled_Vessel</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.LLC_BI__UCC</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.cm_Ag_Products_Record_type</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.cm_Equipment_Record_type</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.cm_Financial_Instrument_Record_type</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.cm_Livestock_Record_type</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.cm_Security_Instrument_Record_type</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Collateral__c.cm_Title_Agreement_Record_Type</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Fee__c.LLC_BI__Adjustments</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Fee__c.LLC_BI__Costs</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Fee__c.LLC_BI__Fees</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Legal_Entities__c.LLC_BI__Deposit_Involvement</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Legal_Entities__c.LLC_BI__Loan_Involvement</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan_Collateral__c.Collateral_Start</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan_Collateral__c.LLC_BI__Government_Contracts</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan_Collateral__c.LLC_BI__Possessory_Letter_of_Credit</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan_Collateral__c.LLC_BI__Possessory_Life_Insurance</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan_Collateral__c.LLC_BI__Possessory_Notes_Instrument</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan_Collateral__c.LLC_BI__Possessory_Other</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan_Collateral__c.LLC_BI__Possessory_Savings_CD</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan_Collateral__c.LLC_BI__Possessory_Securities</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan_Collateral__c.LLC_BI__Real_Estate</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan_Collateral__c.LLC_BI__Titled_Aircraft</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan_Collateral__c.LLC_BI__Titled_Boat</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan_Collateral__c.LLC_BI__Titled_Mobile_Home</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan_Collateral__c.LLC_BI__Titled_Motor_Vehicle</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan_Collateral__c.LLC_BI__Titled_Other</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan_Collateral__c.LLC_BI__Titled_Vessel</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan_Collateral__c.LLC_BI__UCC_Life_Described</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan__c.Commercial_Loan_Record_Type</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan__c.Consumer_Loan_Record_Type</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan__c.Government_Guaranteed_Record_Type</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan__c.Guidance_LOC_Sub_Loan_Record_Type</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan__c.Guidance_Line_Record_Type</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan__c.LLC_BI__Start</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan__c.LLC_BI__Test_Product_Type_1</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Loan__c.LLC_BI__Test_Product_Type_1v2</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Product_Package__c.LLC_BI__Treasury_Maintenance</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Review__c.LLC_BI__Account_Review_Complete</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Review__c.LLC_BI__Account_Review_In_Progress</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Review__c.LLC_BI__Package_Review_Complete</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Review__c.LLC_BI__Package_Review_In_Progress</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Template_Records__c.LLC_BI__Fee_Management_Record_Type</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>LLC_BI__Template_Records__c.LLC_BI__Starting_Record_Type</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Land_Report__c.DLS</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Land_Report__c.Riverlot</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Lead.FinServ__BusinessReferral</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Lead.FinServ__General</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Lead.FinServ__Referral</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Lead.FinServ__RetirementPlanning</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Lead.LLC_BI__Loan</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Lead.LLC_BI__Treasury_Management</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Messages_and_Alerts__c.User_Authored</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.FinServ__General</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.FinServ__RetirementPlanning</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.FinServ__WalletShareOpportunity</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.Insurance</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.LLC_BI__Loan</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.LLC_BI__Treasury_Management</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Opportunity.vlocity_ins__MobilePhoneOpportunity</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>PersonAccount.Person</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Schedule1_Code__c.A</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Schedule1_Code__c.B</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Schedule1_Code__c.C</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Schedule1_Line_Item__c.A</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Schedule1_Line_Item__c.B</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Schedule1_Line_Item__c.C</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Subscription_Year__c.Insurance</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Subscription_Year__c.Stabilization</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Subscription__c.Insurance</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Subscription__c.Lending</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Subscription__c.Stabilization</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Tax_Code__c.A</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Tax_Code__c.B</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Tax_Code__c.C</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Tax_Code__c.D</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Tax_Code__c.E</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Tax_Statement_Additional_Information__c.P</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Tax_Statement_Additional_Information__c.S</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Tax_Statement_Line_Item__c.A</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Tax_Statement_Line_Item__c.B</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Tax_Statement_Line_Item__c.C</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Tax_Statement_Line_Item__c.D</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Tax_Statement_Line_Item__c.E</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Validation_Issue__c.Harvested_Production_Report</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Validation_Issue__c.Land_Report</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>cm_Payee__c.External_Payments</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>cm_Payee__c.Internal_Payments</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>Admin_Mass_Update</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Admin_Mass_Update_Post_Steps</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Admin_User_Account_Management</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Ag_Prod_Use_Grade__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Ag_Prod_Use_UOM__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Ag_Prod_Use_Year__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Ag_Prod_Use__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Ag_Product__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Assigned_Rating__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Benefit_Application__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Benefit_Calculation_Method__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Benefit_Period__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Benefit_Request_Inventory_Detail__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Benefit_Request_Line_Item__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Benefit_Request__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Benefit_Type__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Benefit__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Branch_Approved_Claims__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Branch__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Change_Request__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ChatterDeleteManager_About</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Community__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Comparable_Sale__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Crop_Year_Land__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>DLS_Land_Location_Invalid__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>DLS_Township__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>DM_Admin</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Disbursement_Requests__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>EQUCAN__EQUCANCreditRequest__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>EQUCAN__EQUCANCreditResponse__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Employee__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Expense_Type__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Farm_Op_Year__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Farm_Operation__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Grade__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Hail_Storm_Affected_Client__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Inventory_Type__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Knowledge__kav</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>LLC_BI__Adverse_Action__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>LLC_BI__Checklist__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>LLC_BI__Collateral_Valuation__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>LLC_BI__Covenant2__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>LLC_BI__Fee__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>LLC_BI__LLC_LoanDocument__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>LLC_BI__Loan_Collateral2__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>LLC_BI__Policy_Exception_Template__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>LLC_BI__Pricing_Matrix__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>LLC_BI__Product_State_Config__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>LLC_BI__Product__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>LLC_BI__Requirement__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>LLC_BI__Review__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>LLC_BI__Template_Records__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Messages_and_Alerts__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Product__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Reference_Margin_Option__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Risk_Area__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Riverlot__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Schedule1_Code__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Subscription_Year__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Subscription__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Supplementary_Information__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Tax_Code__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Tax_Statement__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Unit_of_Measure__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>User_Access_Reference__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>cm_Disbursement_Request__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>cm_Interest_Rate_Margin__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>cm_Periodic_Review__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>cm_Risk_Rating__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>nFORCE__Answer__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>nFORCE__Field_Configuration__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>nFORCE__Group__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>nFORCE__Option__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>nFORCE__Question__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>nFORCE__Route_Group__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>nFORCE__Route_Terms__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>nFORCE__Route__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>nFORCE__Screen__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>nFORCE__Session__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>nFUSE__Transaction_Log__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>rflib_Log_Dashboard</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Account</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Asset</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Campaign</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Case</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Contact</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Contract</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Event</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Lead</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-LiveAgentSession</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-LiveChatTranscript</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Macro</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Opportunity</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Order</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Pricebook2</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ProfileSkill</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-QuickText</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-SocialPersona</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Solution</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-WorkBadge</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-WorkBadgeDefinition</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <userLicense>Customer Community Login</userLicense>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ActivitiesAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApexRestServices</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApiEnabled</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AssignTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterEditOwnPost</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterEditOwnRecordPost</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterEnabledForUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterOwnGroups</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>DeleteTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EnableNotifications</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ModerateNetworkFeeds</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ModerateNetworkFiles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>RunFlow</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SelectFilesFromSalesforce</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ShareFilesWithNetworks</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>UseWebLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewEncryptedData</name>
+    </userPermissions>
+</Profile>
